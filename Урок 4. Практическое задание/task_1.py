@@ -24,7 +24,7 @@ def func_1(nums):
 
 
 def func_2(nums):
-    return [nums[i] for i in range(len(nums)) if nums[i] % 2 == 0]
+    return [i for id, i in enumerate(nums) if i % 2 == 0]
 
 
 def func_3(nums):
